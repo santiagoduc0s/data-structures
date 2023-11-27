@@ -1,0 +1,19 @@
+{
+    "name": "data-structures",
+    "version": "1.0.0",
+    "description": "Estructuras de datos creadas con javascript puro",
+    "keywords": ["data structures"],
+    "license": "MIT",
+    "author": "Santiago Ducos",
+    "main": "index.js",
+    "browser": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest --watchman=false"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.23.3",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0"
+    }
+}
