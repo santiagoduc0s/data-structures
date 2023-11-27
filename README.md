@@ -1,11 +1,11 @@
-# Data Structures Package
+# Simple Data Structures Package
 
 ## Descripción
 
 Este paquete ofrece una implementación eficiente y versátil de algunas estructura de datos conocidas
 
 ```
-npm install 'santiagoduc0s/data-structures'
+npm i simple-data-structures
 ```
 
 Ejemplo uso Stack

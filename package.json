@@ -1,13 +1,20 @@
 {
-    "name": "data-structures",
+    "name": "simple-data-structures",
     "version": "1.0.0",
     "description": "Estructuras de datos creadas con javascript puro",
     "keywords": ["data structures"],
     "license": "MIT",
     "author": "Santiago Ducos",
+    "homepage": "https://github.com/santiagoduc0s/data-structures",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/santiagoduc0s/data-structures"
+    },
+
     "main": "index.js",
     "browser": "index.js",
     "type": "module",
+
     "scripts": {
         "test": "jest --watchman=false"
     },
