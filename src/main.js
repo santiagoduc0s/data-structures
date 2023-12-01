@@ -1,9 +1,15 @@
-import { Queue } from "./index.js";
+import { Graph } from "./index.js";
 
-/** @type {Queue<string>} */
-const q = new Queue()
+/** @type {Graph} */
+const g = new Graph()
 
+g.addNode('A')
+g.addNode('B')
+g.addNode('C')
 
-q.enqueue('hola ')
-q.enqueue('mundo')
-console.log(q.dequeue())
+g.addEdge('A', 'B')
+g.addEdge('A', 'C')
+g.addEdge('B', 'C')
+g.addEdge('C', 'A')
+
+g.show()
